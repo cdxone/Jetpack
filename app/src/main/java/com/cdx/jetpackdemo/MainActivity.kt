@@ -14,7 +14,9 @@ class MainActivity : BaseListActivty() {
         data.add(ItemObject("BottomSheetScaffold底部动作条",
             BottomSheetScaffoldDemoActivity::class.java))
         data.add(ItemObject("BackdropScaffold背景幕", BackdropScaffoldDemoActivity::class.java))
-
+        data.add(ItemObject("LazyColumn列表", LazyColumnDemoActivity::class.java))
+        data.add(ItemObject("LazyVerticalGrid列表", LazyVerticalGridDemoActivity::class.java))
     }
+
 
 }
