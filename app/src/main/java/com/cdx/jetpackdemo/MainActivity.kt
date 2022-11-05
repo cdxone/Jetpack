@@ -16,6 +16,8 @@ class MainActivity : BaseListActivty() {
         data.add(ItemObject("BackdropScaffold背景幕", BackdropScaffoldDemoActivity::class.java))
         data.add(ItemObject("LazyColumn列表", LazyColumnDemoActivity::class.java))
         data.add(ItemObject("LazyVerticalGrid列表", LazyVerticalGridDemoActivity::class.java))
+        data.add(ItemObject("Text列表", TextDemoActivity::class.java))
+        data.add(ItemObject("Image列表", ImageDemoActivity::class.java))
     }
 
 
